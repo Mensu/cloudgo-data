@@ -12,7 +12,7 @@ go get github.com/Mensu/cloudgo-data
 
 - [x] 使用 ``xorm`` 或 ``gorm`` 实现本文的程序，从编程效率、程序结构、服务性能等角度对比 ``database/sql`` 与 ``orm`` 实现的异同！
   1. ``orm`` 是否就是实现了 ``dao`` 的自动化？
-  2. [x] 使用 ``ab`` 测试性能
+  2. 使用 ``ab`` 测试性能
 
 ## ``database/sql`` VS ``orm``
 
@@ -40,7 +40,7 @@ go get github.com/Mensu/cloudgo-data
 
 ``orm`` 只是将数据库中的实体映射到结构，只不过将**写 SQL 语句**换做是**函数调用**，相对来说进行的操作还比较底层，不能完全实现 ``dao`` 的自动化。但不可否认，如果数据模型较为简单，如本次作业，那 ``orm`` 在一定程度上确实是实现了 ``dao`` 的自动化
 
-## 2. [x] 使用 ``ab`` 测试性能
+## 2. 使用 ``ab`` 测试性能
 
 ### POST /service/userinfo
 
